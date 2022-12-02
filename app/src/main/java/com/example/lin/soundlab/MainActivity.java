@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
     private static final String[] listPlayChannel = {"Mono","Stereo"};
     private static final int[] valuePlayChannel = {AudioFormat.CHANNEL_OUT_MONO, AudioFormat.CHANNEL_OUT_STEREO};
     private int curPlayChannel = valuePlayChannel[0];
-    private static final String[] listPlaySamplingRate = {"48000","44100","16000","8000"};
-    private static final int[] valuePlaySamplingRate = {48000,44100,16000,8000};
+    private static final String[] listPlaySamplingRate = {"96000","48000","44100","16000","8000"};
+    private static final int[] valuePlaySamplingRate = {96000,48000,44100,16000,8000};
     private int curPlaySamplingRate = valuePlaySamplingRate[0];
 
     private int initialPlayUsagePosition = 0;
@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
     private static final String[] listRecordChannel = {"Mono","Stereo"};
     private static final int[] valueRecordChannel = {AudioFormat.CHANNEL_IN_MONO, AudioFormat.CHANNEL_IN_STEREO};
     private int curRecordChannel = valueRecordChannel[0];
-    private static final String[] listRecordSamplingRate = {"48000","44100"};
-    private static final int[] valueRecordSamplingRate = {48000,44100};
+    private static final String[] listRecordSamplingRate = {"96000","48000","44100"};
+    private static final int[] valueRecordSamplingRate = {96000,48000,44100};
     private int curRecordSamplingRate = valueRecordSamplingRate[0];
 
     private int initialRecordAudioSourcePosition = 2;
